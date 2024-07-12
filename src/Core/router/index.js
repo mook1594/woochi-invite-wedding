@@ -16,6 +16,10 @@ const router = createRouter({
       path: '/search',
       name: 'search',
       component: () => import('@/Weather/views/SearchView.vue')
+    }, {
+      path: '/timer',
+      name: 'search',
+      component: () => import('@/Main/views/TimerView.vue')
     }
     // {
     //   path: '/about',
