@@ -80,7 +80,7 @@ function initializeClock(id, endtime) {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height:90vh;
+    height:100vh;
 }
 h1{
     color: #82589F;

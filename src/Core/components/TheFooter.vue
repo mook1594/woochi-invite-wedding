@@ -12,14 +12,14 @@ import { RouterLink } from 'vue-router';
           </RouterLink>
         </li>
         <li>
-          <RouterLink to="/forecast">
+          <RouterLink >
             <span class="material-symbols-outlined footer_icons">
               stacked_line_chart
             </span>
           </RouterLink>
         </li>
         <li>
-          <RouterLink to ="/search">
+          <RouterLink >
             <span class="material-symbols-outlined footer_icons"> search </span>
           </RouterLink>
         </li>
