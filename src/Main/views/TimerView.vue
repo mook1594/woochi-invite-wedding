@@ -50,6 +50,7 @@ function initializeClock(id, endtime) {
 
 <template>
 <div class="wrapper">
+    <h1>Woochi's Wedding</h1>
     <div id="clockdiv">
         <div>
             <span class="days"></span>
