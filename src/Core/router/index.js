@@ -6,8 +6,12 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      name: 'root',
+      component: import('@/Main/views/TimerView.vue')
+    }, {
+      path: '/home',
       name: 'home',
-      component: HomeView
+      component: () => import('@/Main/views/HomeView.vue')
     }, {
       path: '/forecast',
       name: 'forecast',
@@ -18,7 +22,7 @@ const router = createRouter({
       component: () => import('@/Weather/views/SearchView.vue')
     }, {
       path: '/timer',
-      name: 'search',
+      name: 'timer',
       component: () => import('@/Main/views/TimerView.vue')
     }
     // {
